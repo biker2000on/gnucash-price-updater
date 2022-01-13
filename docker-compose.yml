@@ -1,7 +1,0 @@
-version: "3.6"
-services:
-  gnucash:
-    build: .   
-    environment:
-      - ALPHAVANTAGE_API_KEY=HGEON5J3INKHSQF3
-      - DB_URI_CONN=postgres://gnucash:gnucash@192.168.4.112/gnucash
